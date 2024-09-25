@@ -1,12 +1,21 @@
-function avg(a, b) {
-    return (a+b)/2
-}
+// function avg(a, b) {
+//     return (a+b)/2
+// }
 
-c1 = avg(4, 6);
-c2 = avg(14, 16);
+// c1 = avg(4, 6);
+// c2 = avg(14, 16);
 
-//console.log(c1, c2);
+// //console.log(c1, c2);
 
-let myDate = new Date();
+// let myDate = new Date();
 
-console.log(myDate.getSeconds());
+// // console.log(myDate.getSeconds());
+
+// Dom Manipulation
+let elem = document.getElementById('click');
+console.log(elem);
+
+let elemClass = document.getElementsByClassName('container');
+console.log(elemClass);
+
+elemClass[0].style.background = 'yellow'

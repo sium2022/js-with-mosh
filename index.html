@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 2px solid red;
+            margin: 3px 0;
+            padding: 3px;
+            background-color: cyan;
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+    </style>
 </head>
 <body>
-    <h1>Hello World</h1>
+    <h1>Welcome to the JavaScript Tutorial</h1>
+
+    <div id="firstContainer" class="container">
+        <button id="click">Click Me</button>
+    </div>
+
+    <div class="container">
+        <p>This is a paragraph</p>
+    </div>
 
     <script src="index.js"></script>
 </body>
